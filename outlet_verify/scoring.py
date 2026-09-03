@@ -18,6 +18,12 @@ from __future__ import annotations
 
 import numpy as np
 
+# Defaults ship here and are calibrated on injected outliers (eval milestone).
+DEFAULT_K = 3.0      # relative test: flag if score < folder_median - k * MAD
+DEFAULT_TAU = 0.45   # absolute floor: an image must also be below this to flag
+_MAD_SCALE = 1.4826  # scales MAD to be std-consistent for normal data
+_MAD_EPS = 1e-6      # below this the folder is too tight for a relative test
+
 
 def _l2_normalize(emb: np.ndarray) -> np.ndarray:
     return emb / (np.linalg.norm(emb, axis=1, keepdims=True) + 1e-12)
@@ -42,6 +48,69 @@ def loo_median_similarity(emb: np.ndarray) -> np.ndarray:
     return np.nanmedian(sim, axis=1)
 
 
+def _mad(x: np.ndarray) -> float:
+    med = np.median(x)
+    return float(np.median(np.abs(x - med)))
+
+
+def flag_outliers(
+    scores: np.ndarray, k: float = DEFAULT_K, tau: float = DEFAULT_TAU
+) -> np.ndarray:
+    """Boolean flag per image within one folder.
+
+    An image is flagged only when it is BOTH:
+      - a within-folder low outlier: score < median - k * (scaled MAD), and
+      - below the absolute floor: score < tau.
+
+    Requiring both keeps clean folders empty: the relative test alone would flag
+    the lowest image in *every* folder, and the floor alone can't tell a merely
+    varied outlet from a fake. Small (n < 3) or too-tight (MAD ~ 0) folders can't
+    support the relative test, so they fall back to the absolute floor alone.
+    NaN scores (single-image folders) are never flagged.
+    """
+    scores = np.asarray(scores, dtype=np.float64)
+    n = scores.shape[0]
+    flags = np.zeros(n, dtype=bool)
+    if n == 0:
+        return flags
+
+    valid = ~np.isnan(scores)
+    below_floor = valid & (scores < tau)
+    if n < 3:
+        return below_floor  # too few images to judge relative fit
+
+    med = np.median(scores[valid])
+    spread = _mad(scores[valid]) * _MAD_SCALE
+    if spread < _MAD_EPS:
+        return below_floor  # folder too tight for a meaningful relative test
+
+    relative = valid & (scores < med - k * spread)
+    return relative & below_floor
+
+
+def percentile_normalize(raw_suspicion: np.ndarray) -> np.ndarray:
+    """Map raw suspicion (higher = more suspicious) to a dataset-relative [0, 1].
+
+    Percentile rank across the whole dataset, so suspicion_score answers "how
+    anomalous is this image compared to every other image we've seen", the
+    min -> 0, the max -> 1. NaN (unjudgeable) -> 0. Feed this the global
+    concatenation of (1 - similarity) over every image.
+    """
+    raw_suspicion = np.asarray(raw_suspicion, dtype=np.float64)
+    out = np.zeros(raw_suspicion.shape[0], dtype=np.float64)
+    valid = ~np.isnan(raw_suspicion)
+    v = raw_suspicion[valid]
+    if v.size == 0:
+        return out
+    if v.size == 1:
+        out[valid] = 1.0
+        return out
+    ranks = np.empty(v.size)
+    ranks[v.argsort()] = np.arange(v.size)
+    out[valid] = ranks / (v.size - 1)
+    return out
+
+
 if __name__ == "__main__":  # self-check: python -m outlet_verify.scoring
     rng = np.random.default_rng(0)
     base = rng.normal(size=384)
@@ -62,4 +131,21 @@ if __name__ == "__main__":  # self-check: python -m outlet_verify.scoring
     assert np.isnan(loo_median_similarity(np.ones((1, 4)))[0])
     assert loo_median_similarity(np.empty((0, 4))).shape == (0,)
 
-    print(f"OK  cluster median ~{np.median(s[:6]):.3f}  outlier ~{s[6]:.3f}")
+    # --- flagging ---
+    clean = np.array([0.60, 0.62, 0.59, 0.61, 0.60])
+    assert not flag_outliers(clean).any()                       # clean -> empty
+    one_bad = np.array([0.60, 0.62, 0.59, 0.61, 0.20])
+    assert flag_outliers(one_bad).tolist() == [0, 0, 0, 0, 1]   # exactly the fake
+    assert not flag_outliers(np.full(4, 0.9)).any()             # MAD~0, above floor
+    assert flag_outliers(np.full(3, 0.30)).all()                # MAD~0, below floor
+    assert flag_outliers(np.array([0.60, 0.30])).tolist() == [0, 1]  # n<3 -> floor
+    assert not flag_outliers(np.array([np.nan])).any()          # single image
+
+    # --- percentile normalization ---
+    norm = percentile_normalize(np.array([0.1, 0.5, 0.9]))
+    assert norm.tolist() == [0.0, 0.5, 1.0]
+    assert percentile_normalize(np.array([0.1, np.nan, 0.9])).tolist() == [0.0, 0.0, 1.0]
+    assert norm.min() >= 0.0 and norm.max() <= 1.0
+
+    print(f"OK  cluster median ~{np.median(s[:6]):.3f}  outlier ~{s[6]:.3f}  "
+          f"flagging+normalization verified")
