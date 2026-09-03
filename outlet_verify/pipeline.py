@@ -55,12 +55,12 @@ def analyze(
         dirs_iter = dirs
 
     # Pass 1: embed + score every folder; collect raw suspicion (1 - similarity).
-    per: list[tuple[str, list[str], np.ndarray]] = []
+    per: list[tuple[Path, list[str], np.ndarray]] = []
     raw_chunks: list[np.ndarray] = []
     for d in dirs_iter:
         names, emb = embed_folder(d, model=model)
         scores = loo_median_similarity(emb)
-        per.append((d.name, names, scores))
+        per.append((d, names, scores))
         raw_chunks.append(np.where(np.isnan(scores), np.nan, 1.0 - scores))
 
     raw = np.concatenate(raw_chunks) if raw_chunks else np.empty(0)
@@ -69,14 +69,14 @@ def analyze(
     # Pass 2: flag per folder and build records.
     records: list[dict] = []
     off = 0
-    for outlet_id, names, scores in per:
+    for folder, names, scores in per:
         m = len(names)
         susp = suspicion[off:off + m]
         off += m
         flags = flag_outliers(scores, k=k, tau=tau)
         order = np.argsort(-susp, kind="stable")  # most -> least suspicious
 
-        reasons = reason_fn(outlet_id, names, np.where(flags)[0], scores) if reason_fn else {}
+        reasons = reason_fn(folder, names, np.where(flags)[0], scores) if reason_fn else {}
         flagged = [
             {
                 "file_name": names[i],
@@ -85,7 +85,7 @@ def analyze(
             }
             for i in order if flags[i]
         ]
-        rec = {"outlet_id": outlet_id, "total_images": m, "flagged_images": flagged}
+        rec = {"outlet_id": folder.name, "total_images": m, "flagged_images": flagged}
         if ranking:
             rec["ranking"] = [names[i] for i in order]
         records.append(rec)

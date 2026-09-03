@@ -6,6 +6,7 @@ import argparse
 
 from .embeddings import DEFAULT_MODEL
 from .pipeline import analyze, write_results
+from .reasons import CLIP_MODEL, clip_reason_fn
 from .scoring import DEFAULT_K, DEFAULT_TAU
 
 
@@ -17,10 +18,14 @@ def main() -> None:
     ap.add_argument("--k", type=float, default=DEFAULT_K, help="MAD multiplier (relative test)")
     ap.add_argument("--tau", type=float, default=DEFAULT_TAU, help="absolute similarity floor")
     ap.add_argument("--no-ranking", action="store_true", help="omit the optional ranking field")
+    ap.add_argument("--no-clip", action="store_true", help="skip CLIP reasons (similarity-only)")
+    ap.add_argument("--clip-model", default=CLIP_MODEL, help="CLIP model id for reasons")
     args = ap.parse_args()
 
+    reason_fn = None if args.no_clip else clip_reason_fn(args.clip_model)
     records = analyze(
-        args.data_dir, model=args.model, k=args.k, tau=args.tau, ranking=not args.no_ranking
+        args.data_dir, model=args.model, k=args.k, tau=args.tau,
+        ranking=not args.no_ranking, reason_fn=reason_fn,
     )
     write_results(records, args.out)
 
