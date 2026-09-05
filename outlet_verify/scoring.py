@@ -75,7 +75,7 @@ def fit_scores(
         return np.empty(0)
     if n == 1:
         return np.array([np.nan])
-    kk = min(n_neighbors, n - 1) if n_neighbors else _k_for(n, k_frac, k_min, k_max)
+    kk = min(n_neighbors, n - 1) if n_neighbors is not None else _k_for(n, k_frac, k_min, k_max)
     unit = _l2_normalize(emb)
     sim = unit @ unit.T
     np.fill_diagonal(sim, -np.inf)  # exclude self from each row
@@ -164,8 +164,9 @@ def percentile_normalize(raw_suspicion: np.ndarray) -> np.ndarray:
 
     Percentile rank across the whole dataset, so suspicion_score answers "how
     anomalous is this image compared to every other image we've seen", the
-    min -> 0, the max -> 1. NaN (unjudgeable) -> 0. Feed this the global
-    concatenation of (1 - similarity) over every image.
+    min -> 0, the max -> 1. Tied values get the same (average-rank) score so
+    equally-suspicious images are reported equally. NaN (unjudgeable) -> 0. Feed
+    this the global concatenation of the folder gap (median - similarity).
     """
     raw_suspicion = np.asarray(raw_suspicion, dtype=np.float64)
     out = np.zeros(raw_suspicion.shape[0], dtype=np.float64)
@@ -176,8 +177,17 @@ def percentile_normalize(raw_suspicion: np.ndarray) -> np.ndarray:
     if v.size == 1:
         out[valid] = 1.0
         return out
+    order = np.argsort(v, kind="mergesort")
+    sv = v[order]
+    ranks_sorted = np.arange(v.size, dtype=np.float64)
+    start = 0  # average the ranks within each tied group
+    for i in range(1, v.size + 1):
+        if i == v.size or sv[i] != sv[start]:
+            if i - start > 1:
+                ranks_sorted[start:i] = (start + i - 1) / 2.0
+            start = i
     ranks = np.empty(v.size)
-    ranks[v.argsort()] = np.arange(v.size)
+    ranks[order] = ranks_sorted
     out[valid] = ranks / (v.size - 1)
     return out
 

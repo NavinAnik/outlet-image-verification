@@ -19,9 +19,11 @@ DEFAULT_MODEL = "facebook/dinov2-small"
 CACHE_DIR = Path(".cache_embeddings")
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
 
-# DINOv2 preprocessing (from facebook/dinov2-small preprocessor_config.json).
-# Hand-rolled with PIL+NumPy so we need no torchvision (which transformers'
-# AutoImageProcessor now hard-requires and which is fragile to pin vs torch).
+# DINOv2 preprocessing (from facebook/dinov2-small preprocessor_config.json),
+# hand-rolled with PIL+NumPy to avoid transformers' AutoImageProcessor, whose
+# "fast" path hard-requires torchvision and is fragile to pin against torch.
+# (torchvision is still present in this env via easyocr; we simply don't route
+# image preprocessing through it.)
 _RESIZE_SHORT = 256
 _CROP = 224
 _MEAN = np.array([0.485, 0.456, 0.406], dtype=np.float32)
