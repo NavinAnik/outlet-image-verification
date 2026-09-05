@@ -78,9 +78,15 @@ def _cache_key(path: Path, model: str) -> str:
     return hashlib.sha1(raw.encode()).hexdigest()
 
 
-def _embed_batch(paths: list[Path], model_name: str) -> np.ndarray:
+_ROTATIONS = (0, 90, 180, 270)  # DINOv2 isn't rotation-invariant; we embed all 4
+
+
+def _embed_batch(paths: list[Path], model_name: str, rot: int = 0) -> np.ndarray:
     model, device = _get_model(model_name)
-    batch = np.stack([_preprocess(Image.open(p).convert("RGB")) for p in paths])
+    imgs = [Image.open(p).convert("RGB") for p in paths]
+    if rot:
+        imgs = [im.rotate(rot, expand=True) for im in imgs]
+    batch = np.stack([_preprocess(im) for im in imgs])
     pixel_values = torch.from_numpy(batch).to(device)
     with torch.inference_mode():
         cls = model(pixel_values=pixel_values).last_hidden_state[:, 0]  # CLS, (B, D)
@@ -89,17 +95,14 @@ def _embed_batch(paths: list[Path], model_name: str) -> np.ndarray:
     return vecs
 
 
-def embed_folder(
-    folder: Path,
-    model: str = DEFAULT_MODEL,
-    cache_dir: Path = CACHE_DIR,
-    batch_size: int = 32,
-) -> tuple[list[str], np.ndarray]:
-    """Embed every image in `folder`.
+def _cache_tag(model: str, rot: int) -> str:
+    return model if rot == 0 else f"{model}@r{rot}"  # rot-0 tag == plain model (compat)
 
-    Returns (file_names, embeddings) where embeddings is (N, D), L2-normalized,
-    row i corresponding to file_names[i]. Cache hits skip the model entirely.
-    """
+
+def _embed_folder_rot(
+    folder: Path, model: str, rot: int, cache_dir: Path, batch_size: int
+) -> tuple[list[str], np.ndarray]:
+    """Embed every image in `folder` at one rotation; (N, D), L2-normalized."""
     cache_dir = Path(cache_dir)
     cache_dir.mkdir(parents=True, exist_ok=True)
     paths = list_images(folder)
@@ -107,10 +110,11 @@ def embed_folder(
         return [], np.empty((0, 0), dtype=np.float32)
 
     names = [p.name for p in paths]
+    tag = _cache_tag(model, rot)
     vecs: list[np.ndarray | None] = [None] * len(paths)
     misses: list[int] = []
     for i, p in enumerate(paths):
-        cf = cache_dir / f"{_cache_key(p, model)}.npy"
+        cf = cache_dir / f"{_cache_key(p, tag)}.npy"
         if cf.exists():
             vecs[i] = np.load(cf)
         else:
@@ -118,12 +122,40 @@ def embed_folder(
 
     for start in range(0, len(misses), batch_size):
         idx = misses[start:start + batch_size]
-        batch = _embed_batch([paths[i] for i in idx], model)
+        batch = _embed_batch([paths[i] for i in idx], model, rot=rot)
         for j, i in enumerate(idx):
             vecs[i] = batch[j]
-            np.save(cache_dir / f"{_cache_key(paths[i], model)}.npy", batch[j])
+            np.save(cache_dir / f"{_cache_key(paths[i], tag)}.npy", batch[j])
 
     return names, np.stack(vecs)  # type: ignore[arg-type]
+
+
+def embed_folder(
+    folder: Path,
+    model: str = DEFAULT_MODEL,
+    cache_dir: Path = CACHE_DIR,
+    batch_size: int = 32,
+) -> tuple[list[str], np.ndarray]:
+    """Embed every image in `folder` (upright). (N, D), L2-normalized."""
+    return _embed_folder_rot(folder, model, 0, cache_dir, batch_size)
+
+
+def embed_folder_rotations(
+    folder: Path,
+    model: str = DEFAULT_MODEL,
+    cache_dir: Path = CACHE_DIR,
+    batch_size: int = 32,
+) -> tuple[list[str], np.ndarray]:
+    """Embed every image at 0/90/180/270. Returns (file_names, emb4) with emb4
+    shaped (N, 4, D), L2-normalized. Used for rotation-invariant scoring."""
+    names: list[str] = []
+    mats: list[np.ndarray] = []
+    for rot in _ROTATIONS:
+        names, e = _embed_folder_rot(folder, model, rot, cache_dir, batch_size)
+        mats.append(e)
+    if not names:
+        return [], np.empty((0, 0, 0), dtype=np.float32)
+    return names, np.stack(mats, axis=1)  # (N, 4, D)
 
 
 if __name__ == "__main__":  # self-check: python -m outlet_verify.embeddings <folder>

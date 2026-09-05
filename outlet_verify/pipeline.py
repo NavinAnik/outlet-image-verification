@@ -13,12 +13,15 @@ from pathlib import Path
 
 import numpy as np
 
-from .embeddings import DEFAULT_MODEL, embed_folder
+from .embeddings import DEFAULT_MODEL, embed_folder, embed_folder_rotations
 from .scoring import (
+    DEFAULT_CEILING,
     DEFAULT_K,
+    DEFAULT_MIN_GAP,
     DEFAULT_TAU,
+    canonicalize,
+    fit_scores,
     flag_outliers,
-    loo_median_similarity,
     percentile_normalize,
 )
 
@@ -38,8 +41,12 @@ def analyze(
     model: str = DEFAULT_MODEL,
     k: float = DEFAULT_K,
     tau: float = DEFAULT_TAU,
+    min_gap: float = DEFAULT_MIN_GAP,
+    ceiling: float = DEFAULT_CEILING,
     ranking: bool = True,
     reason_fn=None,
+    ocr_filter: bool = True,
+    rotation_invariant: bool = True,
 ) -> list[dict]:
     """Return a per-outlet record list conforming to the assignment schema.
 
@@ -58,22 +65,35 @@ def analyze(
     per: list[tuple[Path, list[str], np.ndarray]] = []
     raw_chunks: list[np.ndarray] = []
     for d in dirs_iter:
-        names, emb = embed_folder(d, model=model)
-        scores = loo_median_similarity(emb)
+        if rotation_invariant:
+            names, emb4 = embed_folder_rotations(d, model=model)
+            emb = canonicalize(emb4) if len(names) else emb4
+        else:
+            names, emb = embed_folder(d, model=model)
+        scores = fit_scores(emb)
         per.append((d, names, scores))
         raw_chunks.append(np.where(np.isnan(scores), np.nan, 1.0 - scores))
 
     raw = np.concatenate(raw_chunks) if raw_chunks else np.empty(0)
     suspicion = percentile_normalize(raw)  # dataset-relative [0, 1]
 
-    # Pass 2: flag per folder and build records.
+    # Pass 2: vision flags per folder.
+    flags_per = [
+        flag_outliers(scores, k=k, tau=tau, min_gap=min_gap, ceiling=ceiling)
+        for _, _, scores in per
+    ]
+
+    # Pass 2b: OCR signage corroboration clears same-shop false positives.
+    if ocr_filter:
+        _ocr_clear_flags(per, flags_per)
+
+    # Pass 3: build per-outlet records.
     records: list[dict] = []
     off = 0
-    for folder, names, scores in per:
+    for (folder, names, scores), flags in zip(per, flags_per):
         m = len(names)
         susp = suspicion[off:off + m]
         off += m
-        flags = flag_outliers(scores, k=k, tau=tau)
         order = np.argsort(-susp, kind="stable")  # most -> least suspicious
 
         reasons = reason_fn(folder, names, np.where(flags)[0], scores) if reason_fn else {}
@@ -91,6 +111,48 @@ def analyze(
         records.append(rec)
 
     return records
+
+
+def _ocr_clear_flags(per, flags_per, threshold=None) -> None:
+    """Un-flag vision-flagged images whose signage text matches their outlet's
+    *distinctive* text (same shop, photographed differently). Only flagged
+    folders are OCR-ed. Degrades to a no-op if OCR is unavailable.
+    """
+    from . import ocr
+
+    if not ocr.available():
+        return
+    if threshold is None:
+        threshold = ocr.DEFAULT_OCR_CLEAR
+
+    flagged = [j for j, f in enumerate(flags_per) if f.any()]
+    if not flagged:
+        return
+    try:
+        from tqdm import tqdm
+        flagged_iter = tqdm(flagged, desc="OCR corroboration", unit="outlet")
+    except ImportError:
+        flagged_iter = flagged
+
+    tokens_per: dict[int, dict[str, set]] = {}
+    outlet_tokens: dict[str, set] = {}
+    for j in flagged_iter:
+        folder, names, _ = per[j]
+        toks = {name: ocr.read_tokens(folder / name) for name in names}
+        tokens_per[j] = toks
+        outlet_tokens[folder.name] = set().union(*toks.values()) if toks else set()
+
+    idf = ocr.compute_idf(outlet_tokens)  # promo text (many outlets) -> ~0
+    for j in flagged:
+        _, names, _ = per[j]
+        flags = flags_per[j]
+        toks = tokens_per[j]
+        reference = set().union(
+            *[toks[names[i]] for i in range(len(names)) if not flags[i]]
+        ) if (~flags).any() else set()
+        for i in range(len(names)):
+            if flags[i] and ocr.corroboration(toks[names[i]], reference, idf) >= threshold:
+                flags[i] = False  # same shop, just a different-looking photo
 
 
 def write_results(records: list[dict], out_path: Path) -> None:

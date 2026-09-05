@@ -19,12 +19,17 @@ import argparse
 
 import numpy as np
 
-from outlet_verify.embeddings import DEFAULT_MODEL, embed_folder
+from outlet_verify.embeddings import DEFAULT_MODEL, embed_folder_rotations
 from outlet_verify.pipeline import find_outlet_dirs
-from outlet_verify.scoring import DEFAULT_K, DEFAULT_TAU, flag_outliers, loo_median_similarity
+from outlet_verify.scoring import (
+    DEFAULT_CEILING,
+    DEFAULT_MIN_GAP,
+    canonicalize,
+    fit_scores,
+    flag_outliers,
+)
 
-TAU_GRID = [0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60]
-K_GRID = [1.5, 2.0, 2.5, 3.0, 3.5]
+MIN_GAP_GRID = [0.05, 0.08, 0.10, 0.12, 0.15, 0.20]
 
 
 def _load(data_dir: str, model: str) -> list[np.ndarray]:
@@ -36,7 +41,8 @@ def _load(data_dir: str, model: str) -> list[np.ndarray]:
     except ImportError:
         pass
     for d in dirs:
-        _, emb = embed_folder(d, model=model)
+        names, emb4 = embed_folder_rotations(d, model=model)
+        emb = canonicalize(emb4) if names else emb4
         if emb.shape[0] > 0:
             embs.append(emb)
     return embs
@@ -52,8 +58,35 @@ def _trial(embs: list[np.ndarray], n_inject: int, rng) -> list[tuple[np.ndarray,
         pick = rng.choice(others.shape[0], size=n_inject, replace=False)
         aug = np.vstack([emb, others[pick]])
         labels = np.array([0] * emb.shape[0] + [1] * n_inject)
-        out.append((loo_median_similarity(aug), labels))
+        out.append((fit_scores(aug), labels))
     return out
+
+
+def _cluster_trial(embs: list[np.ndarray], size: int, rng) -> list[tuple[np.ndarray, np.ndarray]]:
+    """Inject a *batch* of `size` images from ONE other outlet into each folder —
+    a coherent fake cluster that self-vouches under a small fixed k."""
+    out = []
+    for i, emb in enumerate(embs):
+        j = rng.choice([x for x in range(len(embs)) if x != i])
+        src = embs[j]
+        if src.shape[0] < size:
+            continue
+        pick = rng.choice(src.shape[0], size=size, replace=False)
+        aug = np.vstack([emb, src[pick]])
+        labels = np.array([0] * emb.shape[0] + [1] * size)
+        out.append((fit_scores(aug), labels))
+    return out
+
+
+def _cluster_recall(embs: list[np.ndarray], size: int, seed: int) -> float:
+    """Flag-recall on injected coherent fake clusters (uses shipped thresholds)."""
+    trials = _cluster_trial(embs, size, np.random.default_rng(seed))
+    tp = fn = 0
+    for scores, labels in trials:
+        flags = flag_outliers(scores).astype(int)
+        tp += int(((flags == 1) & (labels == 1)).sum())
+        fn += int(((flags == 0) & (labels == 1)).sum())
+    return tp / (tp + fn) if tp + fn else 0.0
 
 
 def _ranking_metrics(trials: list) -> dict:
@@ -79,10 +112,10 @@ def _ranking_metrics(trials: list) -> dict:
     }
 
 
-def _metrics(trials: list, k: float, tau: float) -> dict:
+def _metrics(trials: list, min_gap: float, ceiling: float = DEFAULT_CEILING) -> dict:
     tp = fp = fn = 0
     for scores, labels in trials:
-        flags = flag_outliers(scores, k=k, tau=tau).astype(int)
+        flags = flag_outliers(scores, min_gap=min_gap, ceiling=ceiling).astype(int)
         tp += int(((flags == 1) & (labels == 1)).sum())
         fp += int(((flags == 1) & (labels == 0)).sum())
         fn += int(((flags == 0) & (labels == 1)).sum())
@@ -108,33 +141,27 @@ def run(data_dir: str, model: str, n_inject: int, trials: int, seed: int) -> Non
     print(f"    fake among 3 most-suspicious     (recall@top3):   {rank['recall@top3']:.1%}")
     print(f"    median suspicion percentile of injected fakes:     {rank['median_rank_pctile']:.2f}")
 
-    # Grid search for the F1-optimal (tau, k).
-    best = None
-    for tau in TAU_GRID:
-        for k in K_GRID:
-            m = _metrics(all_trials, k, tau)
-            if best is None or m["f1"] > best[2]["f1"]:
-                best = (tau, k, m)
+    cr = _cluster_recall(embs, size=5, seed=seed)
+    print(f"\n  coherent-cluster flag-recall (5 fakes from one outlet): {cr:.1%}")
 
-    dflt = _metrics(all_trials, DEFAULT_K, DEFAULT_TAU)
-    print("\n                     precision  recall     f1     (TP/FP/FN)")
-    print(f"  shipped   tau={DEFAULT_TAU} k={DEFAULT_K}   "
+    # Flag metrics (folder-relative gap rule): shipped default + a min_gap sweep.
+    dflt = _metrics(all_trials, DEFAULT_MIN_GAP)
+    print("\n                        precision  recall     f1     (TP/FP/FN)")
+    print(f"  shipped  min_gap={DEFAULT_MIN_GAP} ceil={DEFAULT_CEILING}   "
           f"{dflt['precision']:.3f}    {dflt['recall']:.3f}   {dflt['f1']:.3f}   "
           f"({dflt['tp']}/{dflt['fp']}/{dflt['fn']})")
-    btau, bk, bm = best
-    print(f"  best F1   tau={btau} k={bk}   "
-          f"{bm['precision']:.3f}    {bm['recall']:.3f}   {bm['f1']:.3f}   "
-          f"({bm['tp']}/{bm['fp']}/{bm['fn']})")
 
-    # tau sweep at the best k, to show the precision/recall trade-off.
-    print(f"\n  tau sweep at k={bk}:")
-    print("    tau    precision  recall    f1")
-    for tau in TAU_GRID:
-        m = _metrics(all_trials, bk, tau)
-        print(f"    {tau:.2f}    {m['precision']:.3f}     {m['recall']:.3f}   {m['f1']:.3f}")
+    best = None
+    print(f"\n  min_gap sweep (ceiling={DEFAULT_CEILING}):")
+    print("    min_gap  precision  recall    f1")
+    for mg in MIN_GAP_GRID:
+        m = _metrics(all_trials, mg)
+        print(f"    {mg:.2f}     {m['precision']:.3f}     {m['recall']:.3f}   {m['f1']:.3f}")
+        if best is None or m["f1"] > best[1]["f1"]:
+            best = (mg, m)
 
-    print(f"\n  Suggested thresholds:  tau={btau}  k={bk}"
-          f"   (precision is a lower bound; see module docstring)")
+    print(f"\n  Best-F1 min_gap={best[0]}  (F1={best[1]['f1']:.3f}). "
+          f"Precision is a lower bound; see module docstring.")
 
 
 def main() -> None:

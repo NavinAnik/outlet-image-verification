@@ -5,3 +5,6 @@ numpy>=1.26,<2.0
 pillow>=11.0.0
 tqdm>=4.67.0
 pytest>=8.0.0
+# OCR signage corroboration (pulls a torch-compatible torchvision + opencv;
+# downloads bn+en models on first use). Disable at runtime with --no-ocr.
+easyocr>=1.7.0
