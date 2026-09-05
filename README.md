@@ -1,9 +1,4 @@
 # Outlet Image Verification
-
-Flag images that don't belong in an outlet's photo history — unsupervised, per
-folder, using each outlet's own images as the reference. See
-[`WRITEUP.md`](WRITEUP.md) for method, rationale, trade-offs, and limitations.
-
 **Pipeline:** DINOv2 CLS embeddings (cached, rotation-canonical) → score each image
 by mean cosine similarity to its k nearest neighbours in the folder → flag when an
 image is *both* a within-folder outlier (folder-gap MAD test) *and* below a
