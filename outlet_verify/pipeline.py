@@ -1,9 +1,10 @@
 """End-to-end pipeline: dataset of outlet folders -> per-outlet JSON results.
 
-For each outlet we embed its images (DINOv2, cached), score each image by
-leave-one-out median similarity, flag with the dual threshold, and normalize
-suspicion globally so the score is dataset-relative. Every outlet is emitted,
-clean ones with an empty ``flagged_images`` list.
+For each outlet we embed its images (DINOv2, cached), score each image by the
+mean cosine similarity to its nearest folder-mates, flag folder-relative
+outliers, clear same-shop false positives with OCR, and normalize suspicion
+globally so the score is dataset-relative. Every outlet is emitted, clean ones
+with an empty ``flagged_images`` list.
 """
 
 from __future__ import annotations
@@ -33,7 +34,7 @@ def find_outlet_dirs(data_dir: Path) -> list[Path]:
 def _reason(score: float) -> str:
     if np.isnan(score):
         return "single image in folder; fit cannot be assessed"
-    return f"low visual similarity to the outlet's other images (median cosine {score:.2f})"
+    return f"low visual similarity to the outlet's other images (fit score {score:.2f})"
 
 
 def analyze(
@@ -72,7 +73,11 @@ def analyze(
             names, emb = embed_folder(d, model=model)
         scores = fit_scores(emb)
         per.append((d, names, scores))
-        raw_chunks.append(np.where(np.isnan(scores), np.nan, 1.0 - scores))
+        # Suspicion is the folder-relative gap (median - score), matching the
+        # flag rule's basis, so a flagged high-similarity fake still reads as
+        # suspicious globally (a global 1-similarity would understate it).
+        gap = np.nanmedian(scores) - scores if np.isfinite(scores).any() else scores
+        raw_chunks.append(np.where(np.isnan(scores), np.nan, gap))
 
     raw = np.concatenate(raw_chunks) if raw_chunks else np.empty(0)
     suspicion = percentile_normalize(raw)  # dataset-relative [0, 1]

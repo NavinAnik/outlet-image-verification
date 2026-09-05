@@ -25,12 +25,13 @@ from pathlib import Path
 from .embeddings import _cache_key
 
 CACHE_DIR = Path(".cache_ocr")
-# Clear a flag when shared-token IDF weight >= this. Calibrated on cross-outlet
-# pairs: at 10.0 a wrong-shop fake is falsely cleared ~4% of the time (vs 27% at
-# 3.0), while legitimate same-shop re-shots score well above it. Bengali OCR is
-# noisy, so the bar must be high enough that a few coincidental token matches
-# don't clear a real fake.
-DEFAULT_OCR_CLEAR = 10.0
+# Clear a flag when the shared normalized-IDF weight >= this (a unique shared
+# token is worth ~1.0, so ~2.5 means "a couple of distinctive tokens in common").
+# Calibrated on cross-outlet pairs: ~3% wrong-shop false-clear, while legitimate
+# same-shop re-shots with readable signage score well above it. Because IDF is
+# now log(N)-normalized, this threshold is stable regardless of how many outlets
+# are flagged/OCR-ed (the earlier absolute bar silently no-oped when few were).
+DEFAULT_OCR_CLEAR = 2.5
 _MODEL = "easyocr-bn-en"  # cache-key namespace / version tag
 _TOKEN_RE = re.compile(r"[^0-9a-zঀ-৿]+")  # keep digits, ascii, Bengali
 
@@ -79,16 +80,20 @@ def read_tokens(path: Path, cache_dir: Path = CACHE_DIR) -> set[str]:
 
 
 def compute_idf(outlet_tokens: dict[str, set[str]]) -> dict[str, float]:
-    """idf[t] = log(N_outlets / df_t): text shared across many outlets (promo)
-    approaches 0; text unique to one outlet (shop name, phone) scores high."""
+    """Normalized IDF: ``log(N/df) / log(N)`` in [0, 1]. Text shared across many
+    outlets (the promo banner) -> ~0; text unique to one outlet (shop name, phone)
+    -> ~1. Dividing by log(N) makes the scale independent of how many outlets were
+    OCR-ed, so the clear threshold means the same thing whether 2 or 200 folders
+    are flagged (a unique shared token is worth ~1.0 regardless of N)."""
     n = len(outlet_tokens)
-    if n == 0:
-        return {}
+    if n <= 1:
+        return {}  # can't judge distinctiveness from a single outlet
     df: dict[str, int] = {}
     for toks in outlet_tokens.values():
         for t in toks:
             df[t] = df.get(t, 0) + 1
-    return {t: math.log(n / c) for t, c in df.items()}
+    logn = math.log(n)
+    return {t: math.log(n / c) / logn for t, c in df.items()}
 
 
 def corroboration(

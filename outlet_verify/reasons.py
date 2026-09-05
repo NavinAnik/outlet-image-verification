@@ -102,7 +102,7 @@ def clip_reason_fn(model: str = CLIP_MODEL):
             i = int(i)
             try:
                 label = _label_for(Path(folder) / names[i], model)
-                out[i] = f"{label} (median cosine {scores[i]:.2f} to the outlet's other images)"
+                out[i] = f"{label} (fit score {scores[i]:.2f} vs the outlet's other images)"
             except Exception:
                 pass  # leave this one to the caller's fallback reason
         return out
