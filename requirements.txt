@@ -1,0 +1,10 @@
+# DINOv2 + CLIP both come from transformers; one model library, no separate CLIP dep.
+torch>=2.7.0
+transformers>=5.5.0
+numpy>=1.26,<2.0
+pillow>=11.0.0
+tqdm>=4.67.0
+pytest>=8.0.0
+# OCR signage corroboration (pulls a torch-compatible torchvision + opencv;
+# downloads bn+en models on first use). Disable at runtime with --no-ocr.
+easyocr>=1.7.0

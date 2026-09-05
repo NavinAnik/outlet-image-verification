@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project: the dataset, embedding cache, and annotated image output are not committed.
+# results.json IS committed — it is a required deliverable.
+dataset/
+.cache_embeddings/
+.cache_ocr/
+output/

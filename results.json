@@ -1,0 +1,3919 @@
+[
+  {
+    "outlet_id": "outlet_003a29a9",
+    "total_images": 8,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0008.jpg",
+      "image_0007.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_004449c0",
+    "total_images": 10,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0010.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_01e0d230",
+    "total_images": 17,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0009.jpg",
+      "image_0005.jpg",
+      "image_0017.jpg",
+      "image_0007.jpg",
+      "image_0010.jpg",
+      "image_0008.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0016.jpg",
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0015.jpg",
+      "image_0012.jpg",
+      "image_0014.jpg",
+      "image_0006.jpg",
+      "image_0011.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_0280ccb5",
+    "total_images": 32,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0027.jpg",
+      "image_0016.jpg",
+      "image_0031.jpg",
+      "image_0032.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg",
+      "image_0012.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0015.jpg",
+      "image_0010.jpg",
+      "image_0011.jpg",
+      "image_0013.jpg",
+      "image_0006.jpg",
+      "image_0014.jpg",
+      "image_0007.jpg",
+      "image_0018.jpg",
+      "image_0003.jpg",
+      "image_0020.jpg",
+      "image_0024.jpg",
+      "image_0001.jpg",
+      "image_0019.jpg",
+      "image_0022.jpg",
+      "image_0026.jpg",
+      "image_0017.jpg",
+      "image_0021.jpg",
+      "image_0023.jpg",
+      "image_0025.jpg",
+      "image_0028.jpg",
+      "image_0029.jpg",
+      "image_0030.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_04473281",
+    "total_images": 13,
+    "flagged_images": [
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9422,
+        "reason": "a different storefront or location (fit score 0.57 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9383,
+        "reason": "a different storefront or location (fit score 0.57 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0002_1.jpg",
+      "image_0001_1.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg",
+      "image_0011.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0010.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_045f93b1",
+    "total_images": 17,
+    "flagged_images": [
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.9902,
+        "reason": "a product close-up, not the outlet (fit score 0.38 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9892,
+        "reason": "a different storefront or location (fit score 0.38 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9427,
+        "reason": "a different storefront or location (fit score 0.64 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0002_1.jpg",
+      "image_0001_1.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0011.jpg",
+      "image_0007.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0015.jpg",
+      "image_0008.jpg",
+      "image_0014.jpg",
+      "image_0012.jpg",
+      "image_0004.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_055c59bd",
+    "total_images": 9,
+    "flagged_images": [
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.9084,
+        "reason": "a different storefront or location (fit score 0.65 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0009.jpg",
+      "image_0006.jpg",
+      "image_0008.jpg",
+      "image_0007.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_083cd34a",
+    "total_images": 9,
+    "flagged_images": [],
+    "ranking": [
+      "image_0009.jpg",
+      "image_0008.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_08e8ac70",
+    "total_images": 15,
+    "flagged_images": [
+      {
+        "file_name": "image_0007.jpg",
+        "suspicion_score": 0.8912,
+        "reason": "a different storefront or location (fit score 0.63 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0007.jpg",
+      "image_0006.jpg",
+      "image_0003.jpg",
+      "image_0010.jpg",
+      "image_0015.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0012.jpg",
+      "image_0011.jpg",
+      "image_0014.jpg",
+      "image_0013.jpg",
+      "image_0005.jpg",
+      "image_0009.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_0a2befe6",
+    "total_images": 13,
+    "flagged_images": [
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.9486,
+        "reason": "a different storefront or location (fit score 0.56 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0009.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0010.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0011.jpg",
+      "image_0012.jpg",
+      "image_0013.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_0af952cd",
+    "total_images": 12,
+    "flagged_images": [
+      {
+        "file_name": "image_0008.jpg",
+        "suspicion_score": 0.8947,
+        "reason": "a different storefront or location (fit score 0.72 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0009.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0011.jpg",
+      "image_0012.jpg",
+      "image_0010.jpg",
+      "image_0007.jpg",
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_0c0e85b4",
+    "total_images": 11,
+    "flagged_images": [
+      {
+        "file_name": "image_0001.jpg",
+        "suspicion_score": 0.9936,
+        "reason": "a different storefront or location (fit score 0.24 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.9441,
+        "reason": "a different storefront or location (fit score 0.57 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.8756,
+        "reason": "a different storefront or location (fit score 0.69 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0010.jpg",
+      "image_0004.jpg",
+      "image_0007.jpg",
+      "image_0005.jpg",
+      "image_0009.jpg",
+      "image_0006.jpg",
+      "image_0011.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_108e6eab",
+    "total_images": 21,
+    "flagged_images": [],
+    "ranking": [
+      "image_0019.jpg",
+      "image_0016.jpg",
+      "image_0017.jpg",
+      "image_0006.jpg",
+      "image_0018.jpg",
+      "image_0003.jpg",
+      "image_0021.jpg",
+      "image_0020.jpg",
+      "image_0005.jpg",
+      "image_0013.jpg",
+      "image_0011.jpg",
+      "image_0004.jpg",
+      "image_0015.jpg",
+      "image_0008.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg",
+      "image_0012.jpg",
+      "image_0014.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_10c7ca00",
+    "total_images": 17,
+    "flagged_images": [
+      {
+        "file_name": "image_0013.jpg",
+        "suspicion_score": 0.9353,
+        "reason": "a different storefront or location (fit score 0.63 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0013.jpg",
+      "image_0014.jpg",
+      "image_0005.jpg",
+      "image_0017.jpg",
+      "image_0008.jpg",
+      "image_0015.jpg",
+      "image_0016.jpg",
+      "image_0011.jpg",
+      "image_0012.jpg",
+      "image_0009.jpg",
+      "image_0006.jpg",
+      "image_0010.jpg",
+      "image_0004.jpg",
+      "image_0007.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_11da187e",
+    "total_images": 5,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0002_1.jpg",
+      "image_0001_1.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_146ab59b",
+    "total_images": 26,
+    "flagged_images": [],
+    "ranking": [
+      "image_0022.jpg",
+      "image_0021.jpg",
+      "image_0019.jpg",
+      "image_0016.jpg",
+      "image_0025.jpg",
+      "image_0023.jpg",
+      "image_0018.jpg",
+      "image_0003.jpg",
+      "image_0020.jpg",
+      "image_0026.jpg",
+      "image_0014.jpg",
+      "image_0012.jpg",
+      "image_0017.jpg",
+      "image_0001.jpg",
+      "image_0024.jpg",
+      "image_0006.jpg",
+      "image_0015.jpg",
+      "image_0011.jpg",
+      "image_0013.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_16412021",
+    "total_images": 5,
+    "flagged_images": [
+      {
+        "file_name": "image_0004.jpg",
+        "suspicion_score": 0.9672,
+        "reason": "a different storefront or location (fit score 0.43 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_176ee853",
+    "total_images": 14,
+    "flagged_images": [],
+    "ranking": [
+      "image_0009.jpg",
+      "image_0011.jpg",
+      "image_0006.jpg",
+      "image_0008.jpg",
+      "image_0013.jpg",
+      "image_0014.jpg",
+      "image_0010.jpg",
+      "image_0001.jpg",
+      "image_0007.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0012.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_1a444d86",
+    "total_images": 27,
+    "flagged_images": [
+      {
+        "file_name": "image_0004_1.jpg",
+        "suspicion_score": 0.9721,
+        "reason": "a different storefront or location (fit score 0.52 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0003_1.jpg",
+        "suspicion_score": 0.9691,
+        "reason": "a different storefront or location (fit score 0.53 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9642,
+        "reason": "a different storefront or location (fit score 0.55 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9358,
+        "reason": "a different storefront or location (fit score 0.63 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004_1.jpg",
+      "image_0003_1.jpg",
+      "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0013.jpg",
+      "image_0020.jpg",
+      "image_0001.jpg",
+      "image_0011.jpg",
+      "image_0005.jpg",
+      "image_0019.jpg",
+      "image_0008.jpg",
+      "image_0016.jpg",
+      "image_0015.jpg",
+      "image_0014.jpg",
+      "image_0017.jpg",
+      "image_0023.jpg",
+      "image_0018.jpg",
+      "image_0007.jpg",
+      "image_0004.jpg",
+      "image_0009.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0021.jpg",
+      "image_0006.jpg",
+      "image_0012.jpg",
+      "image_0022.jpg",
+      "image_0010.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_1a4910c8",
+    "total_images": 29,
+    "flagged_images": [
+      {
+        "file_name": "image_0012.jpg",
+        "suspicion_score": 0.8746,
+        "reason": "a different storefront or location (fit score 0.77 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0028.jpg",
+        "suspicion_score": 0.866,
+        "reason": "a different storefront or location (fit score 0.78 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0029.jpg",
+        "suspicion_score": 0.866,
+        "reason": "a different storefront or location (fit score 0.78 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0024.jpg",
+        "suspicion_score": 0.8501,
+        "reason": "a different storefront or location (fit score 0.79 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0019.jpg",
+      "image_0012.jpg",
+      "image_0028.jpg",
+      "image_0029.jpg",
+      "image_0011.jpg",
+      "image_0024.jpg",
+      "image_0022.jpg",
+      "image_0007.jpg",
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0027.jpg",
+      "image_0013.jpg",
+      "image_0016.jpg",
+      "image_0003.jpg",
+      "image_0015.jpg",
+      "image_0026.jpg",
+      "image_0020.jpg",
+      "image_0018.jpg",
+      "image_0002.jpg",
+      "image_0008.jpg",
+      "image_0017.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0014.jpg",
+      "image_0021.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg",
+      "image_0023.jpg",
+      "image_0025.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_1aa573b9",
+    "total_images": 14,
+    "flagged_images": [],
+    "ranking": [
+      "image_0014.jpg",
+      "image_0011.jpg",
+      "image_0010.jpg",
+      "image_0012.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0007.jpg",
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0013.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_1b2b051c",
+    "total_images": 8,
+    "flagged_images": [
+      {
+        "file_name": "image_0001.jpg",
+        "suspicion_score": 0.9554,
+        "reason": "a different storefront or location (fit score 0.45 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0007.jpg",
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_1ce36f39",
+    "total_images": 15,
+    "flagged_images": [
+      {
+        "file_name": "image_0001.jpg",
+        "suspicion_score": 0.9799,
+        "reason": "a different storefront or location (fit score 0.52 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.9079,
+        "reason": "a different storefront or location (fit score 0.72 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0009.jpg",
+      "image_0008.jpg",
+      "image_0015.jpg",
+      "image_0003.jpg",
+      "image_0012.jpg",
+      "image_0010.jpg",
+      "image_0013.jpg",
+      "image_0014.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0011.jpg",
+      "image_0007.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_1f28f2e3",
+    "total_images": 19,
+    "flagged_images": [],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0017.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0007.jpg",
+      "image_0015.jpg",
+      "image_0011.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0014.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0018.jpg",
+      "image_0019.jpg",
+      "image_0016.jpg",
+      "image_0006.jpg",
+      "image_0012.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_256287da",
+    "total_images": 7,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0007.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_264cdac2",
+    "total_images": 5,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0002_1.jpg",
+      "image_0001_1.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_2790dc54",
+    "total_images": 8,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0007.jpg",
+      "image_0006.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0001.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_282fec27",
+    "total_images": 11,
+    "flagged_images": [
+      {
+        "file_name": "image_0006.jpg",
+        "suspicion_score": 0.9848,
+        "reason": "a different storefront or location (fit score 0.41 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0006.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0011.jpg",
+      "image_0008.jpg",
+      "image_0007.jpg",
+      "image_0010.jpg",
+      "image_0005.jpg",
+      "image_0009.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_288f9f47",
+    "total_images": 18,
+    "flagged_images": [
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9887,
+        "reason": "an indoor scene, unlike the outlet (fit score 0.34 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9329,
+        "reason": "a different storefront or location (fit score 0.62 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0002_1.jpg",
+      "image_0001_1.jpg",
+      "image_0012.jpg",
+      "image_0013.jpg",
+      "image_0005.jpg",
+      "image_0015.jpg",
+      "image_0011.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0016.jpg",
+      "image_0009.jpg",
+      "image_0014.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0007.jpg",
+      "image_0006.jpg",
+      "image_0010.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_28e3acec",
+    "total_images": 30,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1_1.jpg",
+        "suspicion_score": 1.0,
+        "reason": "an indoor scene, unlike the outlet (fit score 0.09 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9941,
+        "reason": "a different storefront or location (fit score 0.28 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9882,
+        "reason": "an indoor scene, unlike the outlet (fit score 0.37 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.9716,
+        "reason": "a different storefront or location (fit score 0.54 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001_2.jpg",
+        "suspicion_score": 0.9564,
+        "reason": "a different storefront or location (fit score 0.59 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_2.jpg",
+        "suspicion_score": 0.9476,
+        "reason": "a different storefront or location (fit score 0.61 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0003_1.jpg",
+        "suspicion_score": 0.926,
+        "reason": "a different storefront or location (fit score 0.66 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1_1.jpg",
+      "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0002.jpg",
+      "image_0001_2.jpg",
+      "image_0002_2.jpg",
+      "image_0003_1.jpg",
+      "image_0007.jpg",
+      "image_0010.jpg",
+      "image_0003.jpg",
+      "image_0020.jpg",
+      "image_0001.jpg",
+      "image_0019.jpg",
+      "image_0011.jpg",
+      "image_0017.jpg",
+      "image_0022.jpg",
+      "image_0009.jpg",
+      "image_0004.jpg",
+      "image_0024.jpg",
+      "image_0008.jpg",
+      "image_0021.jpg",
+      "image_0005.jpg",
+      "image_0018.jpg",
+      "image_0016.jpg",
+      "image_0015.jpg",
+      "image_0023.jpg",
+      "image_0014.jpg",
+      "image_0006.jpg",
+      "image_0012.jpg",
+      "image_0013.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_29139154",
+    "total_images": 11,
+    "flagged_images": [],
+    "ranking": [
+      "image_0011.jpg",
+      "image_0004.jpg",
+      "image_0007.jpg",
+      "image_0010.jpg",
+      "image_0005.jpg",
+      "image_0009.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_2df55e25",
+    "total_images": 5,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_2e2f0c83",
+    "total_images": 14,
+    "flagged_images": [
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.9726,
+        "reason": "a different storefront or location (fit score 0.42 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0009.jpg",
+      "image_0005.jpg",
+      "image_0002.jpg",
+      "image_0014.jpg",
+      "image_0006.jpg",
+      "image_0008.jpg",
+      "image_0010.jpg",
+      "image_0013.jpg",
+      "image_0012.jpg",
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0007.jpg",
+      "image_0011.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_2ed27fc4",
+    "total_images": 10,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0004_1.jpg",
+      "image_0001_1.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0002_1.jpg",
+      "image_0003_1.jpg",
+      "image_0006.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_2fed22e2",
+    "total_images": 11,
+    "flagged_images": [
+      {
+        "file_name": "image_0001.jpg",
+        "suspicion_score": 0.9123,
+        "reason": "a different storefront or location (fit score 0.60 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0011.jpg",
+      "image_0008.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0010.jpg",
+      "image_0004.jpg",
+      "image_0007.jpg",
+      "image_0009.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_31cc0334",
+    "total_images": 14,
+    "flagged_images": [],
+    "ranking": [
+      "image_0011.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0009.jpg",
+      "image_0014.jpg",
+      "image_0010.jpg",
+      "image_0012.jpg",
+      "image_0002.jpg",
+      "image_0008.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0013.jpg",
+      "image_0007.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_349bc0a8",
+    "total_images": 19,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9956,
+        "reason": "a different storefront or location (fit score 0.27 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0007.jpg",
+        "suspicion_score": 0.9922,
+        "reason": "a different storefront or location (fit score 0.34 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9824,
+        "reason": "a different storefront or location (fit score 0.48 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0003_1.jpg",
+        "suspicion_score": 0.9402,
+        "reason": "a different storefront or location (fit score 0.64 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0006.jpg",
+        "suspicion_score": 0.9143,
+        "reason": "a different storefront or location (fit score 0.69 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1.jpg",
+      "image_0007.jpg",
+      "image_0002_1.jpg",
+      "image_0003_1.jpg",
+      "image_0006.jpg",
+      "image_0016.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0002.jpg",
+      "image_0015.jpg",
+      "image_0014.jpg",
+      "image_0013.jpg",
+      "image_0012.jpg",
+      "image_0008.jpg",
+      "image_0011.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_36017925",
+    "total_images": 11,
+    "flagged_images": [],
+    "ranking": [
+      "image_0010.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0011.jpg",
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0009.jpg",
+      "image_0004.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_36bfbfba",
+    "total_images": 8,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_376cc0f6",
+    "total_images": 10,
+    "flagged_images": [
+      {
+        "file_name": "image_0004.jpg",
+        "suspicion_score": 0.9995,
+        "reason": "a product close-up, not the outlet (fit score 0.04 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0009.jpg",
+      "image_0001.jpg",
+      "image_0010.jpg",
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_3bb172c5",
+    "total_images": 16,
+    "flagged_images": [],
+    "ranking": [
+      "image_0016.jpg",
+      "image_0014.jpg",
+      "image_0009.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0015.jpg",
+      "image_0007.jpg",
+      "image_0010.jpg",
+      "image_0011.jpg",
+      "image_0004.jpg",
+      "image_0013.jpg",
+      "image_0012.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_3c954cee",
+    "total_images": 6,
+    "flagged_images": [],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0005.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_3cf44c1c",
+    "total_images": 5,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_3d493e9d",
+    "total_images": 10,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0007.jpg",
+      "image_0009.jpg",
+      "image_0006.jpg",
+      "image_0010.jpg",
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_3f09815b",
+    "total_images": 6,
+    "flagged_images": [],
+    "ranking": [
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_4057fa9f",
+    "total_images": 5,
+    "flagged_images": [],
+    "ranking": [
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_4369bd99",
+    "total_images": 10,
+    "flagged_images": [
+      {
+        "file_name": "image_0006.jpg",
+        "suspicion_score": 0.9927,
+        "reason": "a product close-up, not the outlet (fit score 0.02 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0006.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0008.jpg",
+      "image_0010.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0009.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_459bb23b",
+    "total_images": 8,
+    "flagged_images": [],
+    "ranking": [
+      "image_0007.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_459c1a69",
+    "total_images": 16,
+    "flagged_images": [
+      {
+        "file_name": "image_0009.jpg",
+        "suspicion_score": 0.977,
+        "reason": "a different storefront or location (fit score 0.50 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0009.jpg",
+      "image_0008.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0010.jpg",
+      "image_0011.jpg",
+      "image_0014.jpg",
+      "image_0015.jpg",
+      "image_0003.jpg",
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0012.jpg",
+      "image_0016.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_47cf0cdd",
+    "total_images": 27,
+    "flagged_images": [],
+    "ranking": [
+      "image_0016.jpg",
+      "image_0007.jpg",
+      "image_0026.jpg",
+      "image_0004.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0013.jpg",
+      "image_0015.jpg",
+      "image_0017.jpg",
+      "image_0008.jpg",
+      "image_0003.jpg",
+      "image_0006.jpg",
+      "image_0011.jpg",
+      "image_0024.jpg",
+      "image_0025.jpg",
+      "image_0005.jpg",
+      "image_0019.jpg",
+      "image_0022.jpg",
+      "image_0018.jpg",
+      "image_0012.jpg",
+      "image_0023.jpg",
+      "image_0009.jpg",
+      "image_0021.jpg",
+      "image_0020.jpg",
+      "image_0027.jpg",
+      "image_0010.jpg",
+      "image_0014.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_486748c6",
+    "total_images": 5,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_4a66821b",
+    "total_images": 12,
+    "flagged_images": [],
+    "ranking": [
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0011.jpg",
+      "image_0010.jpg",
+      "image_0002.jpg",
+      "image_0008.jpg",
+      "image_0003.jpg",
+      "image_0012.jpg",
+      "image_0007.jpg",
+      "image_0006.jpg",
+      "image_0009.jpg",
+      "image_0001.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_4ba8e6fb",
+    "total_images": 14,
+    "flagged_images": [],
+    "ranking": [
+      "image_0004_1.jpg",
+      "image_0001_1.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0002_1.jpg",
+      "image_0003_1.jpg",
+      "image_0001.jpg",
+      "image_0010.jpg",
+      "image_0003.jpg",
+      "image_0009.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_4bbeb21b",
+    "total_images": 21,
+    "flagged_images": [
+      {
+        "file_name": "image_0006.jpg",
+        "suspicion_score": 0.8442,
+        "reason": "a different storefront or location (fit score 0.77 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0020.jpg",
+      "image_0021.jpg",
+      "image_0006.jpg",
+      "image_0018.jpg",
+      "image_0003.jpg",
+      "image_0019.jpg",
+      "image_0004.jpg",
+      "image_0016.jpg",
+      "image_0011.jpg",
+      "image_0007.jpg",
+      "image_0015.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0010.jpg",
+      "image_0017.jpg",
+      "image_0013.jpg",
+      "image_0014.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg",
+      "image_0012.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_4eaf2e47",
+    "total_images": 9,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001_2.jpg",
+      "image_0001_1.jpg",
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0001_1_1.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_5234b92a",
+    "total_images": 22,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9686,
+        "reason": "a different storefront or location (fit score 0.54 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9623,
+        "reason": "a different storefront or location (fit score 0.56 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0004_1.jpg",
+        "suspicion_score": 0.9598,
+        "reason": "a different storefront or location (fit score 0.58 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0003_1.jpg",
+        "suspicion_score": 0.9539,
+        "reason": "a different storefront or location (fit score 0.59 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0004_1.jpg",
+      "image_0003_1.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0010.jpg",
+      "image_0012.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0016.jpg",
+      "image_0008.jpg",
+      "image_0011.jpg",
+      "image_0009.jpg",
+      "image_0014.jpg",
+      "image_0017.jpg",
+      "image_0007.jpg",
+      "image_0013.jpg",
+      "image_0018.jpg",
+      "image_0015.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_539b60a1",
+    "total_images": 12,
+    "flagged_images": [],
+    "ranking": [
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0003.jpg",
+      "image_0009.jpg",
+      "image_0002.jpg",
+      "image_0010.jpg",
+      "image_0011.jpg",
+      "image_0012.jpg",
+      "image_0001.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_53ea491f",
+    "total_images": 13,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg",
+      "image_0008.jpg",
+      "image_0007.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0012.jpg",
+      "image_0010.jpg",
+      "image_0011.jpg",
+      "image_0013.jpg",
+      "image_0009.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_5be5b163",
+    "total_images": 7,
+    "flagged_images": [],
+    "ranking": [
+      "image_0007.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_5c8120ae",
+    "total_images": 15,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0015.jpg",
+      "image_0012.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0009.jpg",
+      "image_0011.jpg",
+      "image_0014.jpg",
+      "image_0004.jpg",
+      "image_0010.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg",
+      "image_0013.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_5d690cb1",
+    "total_images": 11,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0011.jpg",
+      "image_0003.jpg",
+      "image_0006.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_5edce88b",
+    "total_images": 10,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0004.jpg",
+      "image_0010.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0009.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_5fb892d3",
+    "total_images": 5,
+    "flagged_images": [
+      {
+        "file_name": "image_0004.jpg",
+        "suspicion_score": 0.9804,
+        "reason": "a different storefront or location (fit score 0.21 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_6087824b",
+    "total_images": 15,
+    "flagged_images": [
+      {
+        "file_name": "image_0010.jpg",
+        "suspicion_score": 0.929,
+        "reason": "a different storefront or location (fit score 0.65 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0015.jpg",
+        "suspicion_score": 0.9265,
+        "reason": "a different storefront or location (fit score 0.66 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0013.jpg",
+        "suspicion_score": 0.9157,
+        "reason": "a different storefront or location (fit score 0.68 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0010.jpg",
+      "image_0015.jpg",
+      "image_0013.jpg",
+      "image_0005.jpg",
+      "image_0011.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0008.jpg",
+      "image_0001.jpg",
+      "image_0009.jpg",
+      "image_0012.jpg",
+      "image_0007.jpg",
+      "image_0014.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_612f8240",
+    "total_images": 19,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9931,
+        "reason": "a different storefront or location (fit score 0.30 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9843,
+        "reason": "a different storefront or location (fit score 0.44 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0013.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0017.jpg",
+      "image_0014.jpg",
+      "image_0010.jpg",
+      "image_0007.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0012.jpg",
+      "image_0003.jpg",
+      "image_0011.jpg",
+      "image_0006.jpg",
+      "image_0015.jpg",
+      "image_0009.jpg",
+      "image_0016.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_63a4bb52",
+    "total_images": 13,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0009.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0013.jpg",
+      "image_0011.jpg",
+      "image_0012.jpg",
+      "image_0008.jpg",
+      "image_0010.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_647a174b",
+    "total_images": 9,
+    "flagged_images": [],
+    "ranking": [
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0007.jpg",
+      "image_0003.jpg",
+      "image_0009.jpg",
+      "image_0008.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_648ccd9a",
+    "total_images": 12,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003_1.jpg",
+      "image_0002_1.jpg",
+      "image_0001_1.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg",
+      "image_0004.jpg",
+      "image_0009.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_66dff2a1",
+    "total_images": 18,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9755,
+        "reason": "a different storefront or location (fit score 0.46 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0017.jpg",
+        "suspicion_score": 0.9304,
+        "reason": "a different storefront or location (fit score 0.60 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1.jpg",
+      "image_0017.jpg",
+      "image_0013.jpg",
+      "image_0008.jpg",
+      "image_0002.jpg",
+      "image_0015.jpg",
+      "image_0004.jpg",
+      "image_0016.jpg",
+      "image_0001.jpg",
+      "image_0014.jpg",
+      "image_0010.jpg",
+      "image_0009.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0007.jpg",
+      "image_0011.jpg",
+      "image_0012.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_680cfd33",
+    "total_images": 12,
+    "flagged_images": [
+      {
+        "file_name": "image_0001.jpg",
+        "suspicion_score": 0.9917,
+        "reason": "a product close-up, not the outlet (fit score 0.10 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0002_1.jpg",
+      "image_0004.jpg",
+      "image_0001_1.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0004_1.jpg",
+      "image_0003_1.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_68bc17a7",
+    "total_images": 30,
+    "flagged_images": [
+      {
+        "file_name": "image_0024.jpg",
+        "suspicion_score": 0.95,
+        "reason": "a different storefront or location (fit score 0.59 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0018.jpg",
+        "suspicion_score": 0.9098,
+        "reason": "a different storefront or location (fit score 0.68 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0024.jpg",
+      "image_0018.jpg",
+      "image_0021.jpg",
+      "image_0028.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0016.jpg",
+      "image_0014.jpg",
+      "image_0029.jpg",
+      "image_0026.jpg",
+      "image_0030.jpg",
+      "image_0005.jpg",
+      "image_0025.jpg",
+      "image_0006.jpg",
+      "image_0012.jpg",
+      "image_0001.jpg",
+      "image_0017.jpg",
+      "image_0022.jpg",
+      "image_0019.jpg",
+      "image_0023.jpg",
+      "image_0027.jpg",
+      "image_0020.jpg",
+      "image_0007.jpg",
+      "image_0015.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg",
+      "image_0011.jpg",
+      "image_0010.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_6aa59f2b",
+    "total_images": 40,
+    "flagged_images": [
+      {
+        "file_name": "image_0003_1.jpg",
+        "suspicion_score": 0.9662,
+        "reason": "a different storefront or location (fit score 0.51 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9608,
+        "reason": "a different storefront or location (fit score 0.52 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9378,
+        "reason": "a different storefront or location (fit score 0.59 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0004_1.jpg",
+        "suspicion_score": 0.9201,
+        "reason": "a different storefront or location (fit score 0.63 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0034.jpg",
+        "suspicion_score": 0.9177,
+        "reason": "a different storefront or location (fit score 0.63 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.9089,
+        "reason": "a different storefront or location (fit score 0.64 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0003_1.jpg",
+      "image_0002_1.jpg",
+      "image_0001_1.jpg",
+      "image_0004_1.jpg",
+      "image_0034.jpg",
+      "image_0002.jpg",
+      "image_0016.jpg",
+      "image_0022.jpg",
+      "image_0001.jpg",
+      "image_0029.jpg",
+      "image_0003.jpg",
+      "image_0009.jpg",
+      "image_0015.jpg",
+      "image_0035.jpg",
+      "image_0024.jpg",
+      "image_0004.jpg",
+      "image_0007.jpg",
+      "image_0027.jpg",
+      "image_0028.jpg",
+      "image_0014.jpg",
+      "image_0032.jpg",
+      "image_0030.jpg",
+      "image_0005.jpg",
+      "image_0011.jpg",
+      "image_0008.jpg",
+      "image_0033.jpg",
+      "image_0031.jpg",
+      "image_0019.jpg",
+      "image_0023.jpg",
+      "image_0020.jpg",
+      "image_0021.jpg",
+      "image_0025.jpg",
+      "image_0036.jpg",
+      "image_0026.jpg",
+      "image_0006.jpg",
+      "image_0017.jpg",
+      "image_0010.jpg",
+      "image_0018.jpg",
+      "image_0012.jpg",
+      "image_0013.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_6b2080bc",
+    "total_images": 6,
+    "flagged_images": [
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.9897,
+        "reason": "a different storefront or location (fit score 0.07 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_6cd2f45a",
+    "total_images": 6,
+    "flagged_images": [
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.999,
+        "reason": "an indoor scene, unlike the outlet (fit score 0.10 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_6df6bcc9",
+    "total_images": 5,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_70f9bde3",
+    "total_images": 8,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0005.jpg",
+      "image_0007.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0008.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_7109ee18",
+    "total_images": 18,
+    "flagged_images": [],
+    "ranking": [
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0016.jpg",
+      "image_0007.jpg",
+      "image_0018.jpg",
+      "image_0005.jpg",
+      "image_0014.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg",
+      "image_0017.jpg",
+      "image_0003.jpg",
+      "image_0013.jpg",
+      "image_0008.jpg",
+      "image_0011.jpg",
+      "image_0012.jpg",
+      "image_0004.jpg",
+      "image_0015.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_731b30e0",
+    "total_images": 6,
+    "flagged_images": [],
+    "ranking": [
+      "image_0006.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0005.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_74d4383f",
+    "total_images": 7,
+    "flagged_images": [],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0002.jpg",
+      "image_0007.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_76e418b9",
+    "total_images": 14,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0011.jpg",
+      "image_0007.jpg",
+      "image_0009.jpg",
+      "image_0012.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0010.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_777f9297",
+    "total_images": 13,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9863,
+        "reason": "a different storefront or location (fit score 0.43 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0009.jpg",
+      "image_0003.jpg",
+      "image_0007.jpg",
+      "image_0010.jpg",
+      "image_0011.jpg",
+      "image_0005.jpg",
+      "image_0012.jpg",
+      "image_0006.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_782744b7",
+    "total_images": 7,
+    "flagged_images": [
+      {
+        "file_name": "image_0007.jpg",
+        "suspicion_score": 0.9343,
+        "reason": "a different storefront or location (fit score 0.60 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.8883,
+        "reason": "a different storefront or location (fit score 0.68 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.8824,
+        "reason": "a different storefront or location (fit score 0.69 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0007.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_7b0d7e5d",
+    "total_images": 10,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001_1.jpg",
+      "image_0004.jpg",
+      "image_0003_1.jpg",
+      "image_0002_1.jpg",
+      "image_0002.jpg",
+      "image_0004_1.jpg",
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_7d7b1abc",
+    "total_images": 25,
+    "flagged_images": [],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0021.jpg",
+      "image_0005.jpg",
+      "image_0014.jpg",
+      "image_0015.jpg",
+      "image_0008.jpg",
+      "image_0017.jpg",
+      "image_0007.jpg",
+      "image_0009.jpg",
+      "image_0025.jpg",
+      "image_0010.jpg",
+      "image_0011.jpg",
+      "image_0023.jpg",
+      "image_0003.jpg",
+      "image_0013.jpg",
+      "image_0012.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0022.jpg",
+      "image_0016.jpg",
+      "image_0024.jpg",
+      "image_0018.jpg",
+      "image_0019.jpg",
+      "image_0020.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_7f1dd575",
+    "total_images": 10,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0001_1.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0009.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_8033796b",
+    "total_images": 12,
+    "flagged_images": [
+      {
+        "file_name": "image_0012.jpg",
+        "suspicion_score": 0.9985,
+        "reason": "a different storefront or location (fit score 0.21 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0008.jpg",
+        "suspicion_score": 0.9392,
+        "reason": "a different storefront or location (fit score 0.66 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0012.jpg",
+      "image_0008.jpg",
+      "image_0003.jpg",
+      "image_0011.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0009.jpg",
+      "image_0001.jpg",
+      "image_0010.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_817272f8",
+    "total_images": 5,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_827dd729",
+    "total_images": 14,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9829,
+        "reason": "a different storefront or location (fit score 0.41 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.9579,
+        "reason": "a different storefront or location (fit score 0.55 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0012.jpg",
+      "image_0011.jpg",
+      "image_0007.jpg",
+      "image_0002.jpg",
+      "image_0013.jpg",
+      "image_0008.jpg",
+      "image_0001.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_830a6674",
+    "total_images": 14,
+    "flagged_images": [],
+    "ranking": [
+      "image_0007.jpg",
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0011.jpg",
+      "image_0005.jpg",
+      "image_0012.jpg",
+      "image_0013.jpg",
+      "image_0014.jpg",
+      "image_0010.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_830ca989",
+    "total_images": 19,
+    "flagged_images": [],
+    "ranking": [
+      "image_0016.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0015.jpg",
+      "image_0003.jpg",
+      "image_0017.jpg",
+      "image_0013.jpg",
+      "image_0014.jpg",
+      "image_0012.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0010.jpg",
+      "image_0007.jpg",
+      "image_0018.jpg",
+      "image_0019.jpg",
+      "image_0009.jpg",
+      "image_0008.jpg",
+      "image_0011.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_8543b5b4",
+    "total_images": 10,
+    "flagged_images": [
+      {
+        "file_name": "image_0004_1.jpg",
+        "suspicion_score": 0.9976,
+        "reason": "a different storefront or location (fit score 0.19 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004_1.jpg",
+      "image_0002_1.jpg",
+      "image_0003_1.jpg",
+      "image_0001_1.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_867ffca6",
+    "total_images": 15,
+    "flagged_images": [
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.9794,
+        "reason": "a different storefront or location (fit score 0.48 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.8613,
+        "reason": "a different storefront or location (fit score 0.73 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0011.jpg",
+      "image_0002.jpg",
+      "image_0012.jpg",
+      "image_0013.jpg",
+      "image_0009.jpg",
+      "image_0015.jpg",
+      "image_0007.jpg",
+      "image_0006.jpg",
+      "image_0008.jpg",
+      "image_0004.jpg",
+      "image_0001.jpg",
+      "image_0010.jpg",
+      "image_0014.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_875df2f2",
+    "total_images": 13,
+    "flagged_images": [
+      {
+        "file_name": "image_0004.jpg",
+        "suspicion_score": 0.9481,
+        "reason": "a different storefront or location (fit score 0.58 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg",
+      "image_0012.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0010.jpg",
+      "image_0009.jpg",
+      "image_0011.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_89fe040d",
+    "total_images": 25,
+    "flagged_images": [
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.9838,
+        "reason": "a different storefront or location (fit score 0.43 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.9657,
+        "reason": "a different storefront or location (fit score 0.55 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0008.jpg",
+        "suspicion_score": 0.9569,
+        "reason": "a different storefront or location (fit score 0.57 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0007.jpg",
+        "suspicion_score": 0.9187,
+        "reason": "a different storefront or location (fit score 0.67 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0007.jpg",
+      "image_0011.jpg",
+      "image_0010.jpg",
+      "image_0009.jpg",
+      "image_0016.jpg",
+      "image_0025.jpg",
+      "image_0001.jpg",
+      "image_0013.jpg",
+      "image_0024.jpg",
+      "image_0023.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0014.jpg",
+      "image_0015.jpg",
+      "image_0021.jpg",
+      "image_0017.jpg",
+      "image_0020.jpg",
+      "image_0012.jpg",
+      "image_0018.jpg",
+      "image_0019.jpg",
+      "image_0022.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_8c4b499e",
+    "total_images": 9,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0007.jpg",
+      "image_0009.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_8cae84d2",
+    "total_images": 8,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_927fbbbb",
+    "total_images": 8,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002_1.jpg",
+      "image_0001_1.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_9486512c",
+    "total_images": 8,
+    "flagged_images": [],
+    "ranking": [
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_94a1339f",
+    "total_images": 12,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0012.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0004.jpg",
+      "image_0009.jpg",
+      "image_0011.jpg",
+      "image_0007.jpg",
+      "image_0010.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_95569b27",
+    "total_images": 11,
+    "flagged_images": [],
+    "ranking": [
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg",
+      "image_0011.jpg",
+      "image_0010.jpg",
+      "image_0009.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_956b57b6",
+    "total_images": 7,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0007.jpg",
+      "image_0004.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_9587ffc0",
+    "total_images": 12,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0011.jpg",
+      "image_0007.jpg",
+      "image_0012.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_96903c66",
+    "total_images": 18,
+    "flagged_images": [
+      {
+        "file_name": "image_0014.jpg",
+        "suspicion_score": 0.9677,
+        "reason": "a different storefront or location (fit score 0.47 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0017.jpg",
+        "suspicion_score": 0.9544,
+        "reason": "a different storefront or location (fit score 0.50 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0018.jpg",
+        "suspicion_score": 0.9451,
+        "reason": "a different storefront or location (fit score 0.53 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0013.jpg",
+        "suspicion_score": 0.9167,
+        "reason": "a different storefront or location (fit score 0.60 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0014.jpg",
+      "image_0017.jpg",
+      "image_0018.jpg",
+      "image_0013.jpg",
+      "image_0009.jpg",
+      "image_0015.jpg",
+      "image_0016.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0012.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg",
+      "image_0010.jpg",
+      "image_0011.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_9c031b9b",
+    "total_images": 19,
+    "flagged_images": [
+      {
+        "file_name": "image_0003_1.jpg",
+        "suspicion_score": 0.9873,
+        "reason": "a different storefront or location (fit score 0.33 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0004_1.jpg",
+        "suspicion_score": 0.9853,
+        "reason": "a different storefront or location (fit score 0.36 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9775,
+        "reason": "a different storefront or location (fit score 0.45 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9667,
+        "reason": "a different storefront or location (fit score 0.50 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0003_1.jpg",
+      "image_0004_1.jpg",
+      "image_0002_1.jpg",
+      "image_0001_1.jpg",
+      "image_0005.jpg",
+      "image_0012.jpg",
+      "image_0011.jpg",
+      "image_0008.jpg",
+      "image_0010.jpg",
+      "image_0015.jpg",
+      "image_0006.jpg",
+      "image_0009.jpg",
+      "image_0003.jpg",
+      "image_0013.jpg",
+      "image_0007.jpg",
+      "image_0004.jpg",
+      "image_0014.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_9e5d2ebe",
+    "total_images": 9,
+    "flagged_images": [
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.9206,
+        "reason": "a different storefront or location (fit score 0.64 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0009.jpg",
+      "image_0008.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_9f1d1b48",
+    "total_images": 22,
+    "flagged_images": [
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.9647,
+        "reason": "a document or screenshot, not a storefront (fit score 0.47 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0008.jpg",
+        "suspicion_score": 0.9613,
+        "reason": "a person or selfie, not the outlet (fit score 0.48 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0006.jpg",
+        "suspicion_score": 0.9588,
+        "reason": "a document or screenshot, not a storefront (fit score 0.49 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0007.jpg",
+        "suspicion_score": 0.949,
+        "reason": "a document or screenshot, not a storefront (fit score 0.52 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg",
+      "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0003_1.jpg",
+      "image_0004_1.jpg",
+      "image_0014.jpg",
+      "image_0009.jpg",
+      "image_0001.jpg",
+      "image_0015.jpg",
+      "image_0011.jpg",
+      "image_0010.jpg",
+      "image_0018.jpg",
+      "image_0017.jpg",
+      "image_0016.jpg",
+      "image_0002.jpg",
+      "image_0012.jpg",
+      "image_0013.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_aa2e6f06",
+    "total_images": 7,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0007.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_aa55187a",
+    "total_images": 15,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1_1.jpg",
+        "suspicion_score": 0.9628,
+        "reason": "a different storefront or location (fit score 0.49 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9593,
+        "reason": "a different storefront or location (fit score 0.51 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0003_1.jpg",
+        "suspicion_score": 0.952,
+        "reason": "a different storefront or location (fit score 0.52 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9388,
+        "reason": "a different storefront or location (fit score 0.56 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1_1.jpg",
+      "image_0002_1.jpg",
+      "image_0003_1.jpg",
+      "image_0001_1.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0011.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0007.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_aa9c72d7",
+    "total_images": 20,
+    "flagged_images": [
+      {
+        "file_name": "image_0006.jpg",
+        "suspicion_score": 0.9971,
+        "reason": "a product close-up, not the outlet (fit score 0.25 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0005.jpg",
+        "suspicion_score": 0.9951,
+        "reason": "a product close-up, not the outlet (fit score 0.28 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0013.jpg",
+      "image_0014.jpg",
+      "image_0020.jpg",
+      "image_0002.jpg",
+      "image_0017.jpg",
+      "image_0011.jpg",
+      "image_0008.jpg",
+      "image_0015.jpg",
+      "image_0001.jpg",
+      "image_0007.jpg",
+      "image_0010.jpg",
+      "image_0018.jpg",
+      "image_0004.jpg",
+      "image_0009.jpg",
+      "image_0019.jpg",
+      "image_0003.jpg",
+      "image_0016.jpg",
+      "image_0012.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ab1e8a98",
+    "total_images": 10,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0010.jpg",
+      "image_0007.jpg",
+      "image_0004.jpg",
+      "image_0009.jpg",
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_abd3f7bb",
+    "total_images": 9,
+    "flagged_images": [
+      {
+        "file_name": "image_0001.jpg",
+        "suspicion_score": 0.9912,
+        "reason": "a person or selfie, not the outlet (fit score 0.29 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0006.jpg",
+        "suspicion_score": 0.9446,
+        "reason": "a different storefront or location (fit score 0.57 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0009.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ac1973a7",
+    "total_images": 12,
+    "flagged_images": [
+      {
+        "file_name": "image_0012.jpg",
+        "suspicion_score": 0.876,
+        "reason": "an indoor scene, unlike the outlet (fit score 0.70 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0012.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg",
+      "image_0007.jpg",
+      "image_0004.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg",
+      "image_0005.jpg",
+      "image_0011.jpg",
+      "image_0010.jpg",
+      "image_0003.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ac589c16",
+    "total_images": 6,
+    "flagged_images": [
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.8525,
+        "reason": "a different storefront or location (fit score 0.42 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg",
+      "image_0001.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ac5f17a2",
+    "total_images": 40,
+    "flagged_images": [],
+    "ranking": [
+      "image_0020.jpg",
+      "image_0001.jpg",
+      "image_0039.jpg",
+      "image_0032.jpg",
+      "image_0025.jpg",
+      "image_0040.jpg",
+      "image_0009.jpg",
+      "image_0011.jpg",
+      "image_0005.jpg",
+      "image_0038.jpg",
+      "image_0004.jpg",
+      "image_0008.jpg",
+      "image_0034.jpg",
+      "image_0010.jpg",
+      "image_0013.jpg",
+      "image_0014.jpg",
+      "image_0031.jpg",
+      "image_0037.jpg",
+      "image_0019.jpg",
+      "image_0028.jpg",
+      "image_0007.jpg",
+      "image_0029.jpg",
+      "image_0030.jpg",
+      "image_0023.jpg",
+      "image_0017.jpg",
+      "image_0035.jpg",
+      "image_0027.jpg",
+      "image_0036.jpg",
+      "image_0016.jpg",
+      "image_0024.jpg",
+      "image_0006.jpg",
+      "image_0033.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0026.jpg",
+      "image_0012.jpg",
+      "image_0018.jpg",
+      "image_0022.jpg",
+      "image_0021.jpg",
+      "image_0015.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ac904859",
+    "total_images": 12,
+    "flagged_images": [
+      {
+        "file_name": "image_0004.jpg",
+        "suspicion_score": 0.976,
+        "reason": "a different storefront or location (fit score 0.48 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9299,
+        "reason": "a different storefront or location (fit score 0.63 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9138,
+        "reason": "a different storefront or location (fit score 0.65 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0003_1.jpg",
+      "image_0008.jpg",
+      "image_0007.jpg",
+      "image_0001.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0009.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_acf74822",
+    "total_images": 15,
+    "flagged_images": [],
+    "ranking": [
+      "image_0013.jpg",
+      "image_0006.jpg",
+      "image_0014.jpg",
+      "image_0010.jpg",
+      "image_0011.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0007.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0015.jpg",
+      "image_0002.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg",
+      "image_0012.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ad9690eb",
+    "total_images": 17,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0017.jpg",
+      "image_0005.jpg",
+      "image_0010.jpg",
+      "image_0009.jpg",
+      "image_0007.jpg",
+      "image_0013.jpg",
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0011.jpg",
+      "image_0014.jpg",
+      "image_0012.jpg",
+      "image_0016.jpg",
+      "image_0006.jpg",
+      "image_0015.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_aeaf0389",
+    "total_images": 6,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_b2d035ee",
+    "total_images": 15,
+    "flagged_images": [
+      {
+        "file_name": "image_0012.jpg",
+        "suspicion_score": 0.9682,
+        "reason": "a different storefront or location (fit score 0.57 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0012.jpg",
+      "image_0009.jpg",
+      "image_0001.jpg",
+      "image_0015.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0011.jpg",
+      "image_0013.jpg",
+      "image_0006.jpg",
+      "image_0014.jpg",
+      "image_0004.jpg",
+      "image_0010.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_b6409886",
+    "total_images": 10,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9907,
+        "reason": "a different storefront or location (fit score 0.32 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9765,
+        "reason": "a different storefront or location (fit score 0.48 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0001.jpg",
+      "image_0005.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ba2e645b",
+    "total_images": 14,
+    "flagged_images": [],
+    "ranking": [
+      "image_0005.jpg",
+      "image_0009.jpg",
+      "image_0013.jpg",
+      "image_0001.jpg",
+      "image_0014.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0003.jpg",
+      "image_0011.jpg",
+      "image_0007.jpg",
+      "image_0012.jpg",
+      "image_0010.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_bb8db053",
+    "total_images": 13,
+    "flagged_images": [
+      {
+        "file_name": "image_0004.jpg",
+        "suspicion_score": 0.8545,
+        "reason": "a different storefront or location (fit score 0.73 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg",
+      "image_0009.jpg",
+      "image_0011.jpg",
+      "image_0008.jpg",
+      "image_0012.jpg",
+      "image_0005.jpg",
+      "image_0010.jpg",
+      "image_0001.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_c0381d55",
+    "total_images": 8,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0007.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_c2181b07",
+    "total_images": 18,
+    "flagged_images": [
+      {
+        "file_name": "image_0003_1.jpg",
+        "suspicion_score": 0.9946,
+        "reason": "a different storefront or location (fit score 0.19 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0003_1.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0004.jpg",
+      "image_0002_1.jpg",
+      "image_0004_1.jpg",
+      "image_0007.jpg",
+      "image_0001_1.jpg",
+      "image_0005.jpg",
+      "image_0012.jpg",
+      "image_0003.jpg",
+      "image_0006.jpg",
+      "image_0011.jpg",
+      "image_0014.jpg",
+      "image_0008.jpg",
+      "image_0001.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_c2fefbb3",
+    "total_images": 8,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0008.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0007.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_c3b06be2",
+    "total_images": 9,
+    "flagged_images": [],
+    "ranking": [
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0007.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0009.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_c41e54d1",
+    "total_images": 15,
+    "flagged_images": [],
+    "ranking": [
+      "image_0003.jpg",
+      "image_0014.jpg",
+      "image_0012.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0010.jpg",
+      "image_0013.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0004.jpg",
+      "image_0011.jpg",
+      "image_0015.jpg",
+      "image_0009.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_c45b06f5",
+    "total_images": 13,
+    "flagged_images": [],
+    "ranking": [
+      "image_0007.jpg",
+      "image_0001.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0010.jpg",
+      "image_0006.jpg",
+      "image_0009.jpg",
+      "image_0012.jpg",
+      "image_0011.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_c816ff76",
+    "total_images": 13,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9833,
+        "reason": "an indoor scene, unlike the outlet (fit score 0.41 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1.jpg",
+      "image_0009.jpg",
+      "image_0012.jpg",
+      "image_0011.jpg",
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0010.jpg",
+      "image_0007.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_c9465127",
+    "total_images": 11,
+    "flagged_images": [
+      {
+        "file_name": "image_0009.jpg",
+        "suspicion_score": 0.9878,
+        "reason": "a different storefront or location (fit score 0.30 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.8951,
+        "reason": "a different storefront or location (fit score 0.64 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0009.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0010.jpg",
+      "image_0001.jpg",
+      "image_0011.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg",
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ccbf4451",
+    "total_images": 9,
+    "flagged_images": [],
+    "ranking": [
+      "image_0009.jpg",
+      "image_0004.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0007.jpg",
+      "image_0006.jpg",
+      "image_0008.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_cf8dc0e2",
+    "total_images": 11,
+    "flagged_images": [
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9814,
+        "reason": "a different storefront or location (fit score 0.42 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9784,
+        "reason": "a different storefront or location (fit score 0.44 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0002_1.jpg",
+      "image_0001_1.jpg",
+      "image_0007.jpg",
+      "image_0001.jpg",
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0009.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_d1358ee8",
+    "total_images": 6,
+    "flagged_images": [
+      {
+        "file_name": "image_0006.jpg",
+        "suspicion_score": 0.855,
+        "reason": "a different storefront or location (fit score 0.78 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0006.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg",
+      "image_0001.jpg",
+      "image_0005.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_d24e34d8",
+    "total_images": 6,
+    "flagged_images": [
+      {
+        "file_name": "image_0004.jpg",
+        "suspicion_score": 0.975,
+        "reason": "a different storefront or location (fit score 0.29 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_d301c743",
+    "total_images": 6,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_d371a9c7",
+    "total_images": 6,
+    "flagged_images": [],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0001.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_d41a1422",
+    "total_images": 8,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9637,
+        "reason": "a different storefront or location (fit score 0.37 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0002_1.jpg",
+        "suspicion_score": 0.9505,
+        "reason": "a different storefront or location (fit score 0.41 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_d5d1af09",
+    "total_images": 7,
+    "flagged_images": [
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.9133,
+        "reason": "a different storefront or location (fit score 0.63 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0007.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_d8c2f00a",
+    "total_images": 12,
+    "flagged_images": [],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0009.jpg",
+      "image_0008.jpg",
+      "image_0012.jpg",
+      "image_0010.jpg",
+      "image_0002.jpg",
+      "image_0011.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_d993a28a",
+    "total_images": 27,
+    "flagged_images": [],
+    "ranking": [
+      "image_0012.jpg",
+      "image_0015.jpg",
+      "image_0021.jpg",
+      "image_0003.jpg",
+      "image_0016.jpg",
+      "image_0027.jpg",
+      "image_0017.jpg",
+      "image_0007.jpg",
+      "image_0023.jpg",
+      "image_0014.jpg",
+      "image_0004.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0008.jpg",
+      "image_0026.jpg",
+      "image_0020.jpg",
+      "image_0002.jpg",
+      "image_0025.jpg",
+      "image_0018.jpg",
+      "image_0024.jpg",
+      "image_0019.jpg",
+      "image_0013.jpg",
+      "image_0009.jpg",
+      "image_0001.jpg",
+      "image_0022.jpg",
+      "image_0011.jpg",
+      "image_0010.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_db0cff8a",
+    "total_images": 16,
+    "flagged_images": [],
+    "ranking": [
+      "image_0007.jpg",
+      "image_0001.jpg",
+      "image_0010.jpg",
+      "image_0002.jpg",
+      "image_0009.jpg",
+      "image_0013.jpg",
+      "image_0014.jpg",
+      "image_0012.jpg",
+      "image_0015.jpg",
+      "image_0004.jpg",
+      "image_0011.jpg",
+      "image_0008.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0006.jpg",
+      "image_0016.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_de743a96",
+    "total_images": 11,
+    "flagged_images": [],
+    "ranking": [
+      "image_0007.jpg",
+      "image_0002.jpg",
+      "image_0010.jpg",
+      "image_0004.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0011.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0009.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_def72cf4",
+    "total_images": 15,
+    "flagged_images": [
+      {
+        "file_name": "image_0001.jpg",
+        "suspicion_score": 0.9961,
+        "reason": "a different storefront or location (fit score 0.26 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0008.jpg",
+      "image_0001_1.jpg",
+      "image_0006.jpg",
+      "image_0010.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0014.jpg",
+      "image_0007.jpg",
+      "image_0011.jpg",
+      "image_0013.jpg",
+      "image_0009.jpg",
+      "image_0004.jpg",
+      "image_0012.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_e1278646",
+    "total_images": 13,
+    "flagged_images": [
+      {
+        "file_name": "image_0001_1.jpg",
+        "suspicion_score": 0.9868,
+        "reason": "a different storefront or location (fit score 0.26 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001_1.jpg",
+      "image_0002_1.jpg",
+      "image_0003_1.jpg",
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0010.jpg",
+      "image_0009.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_e181d85d",
+    "total_images": 18,
+    "flagged_images": [],
+    "ranking": [
+      "image_0012.jpg",
+      "image_0002_1.jpg",
+      "image_0001_1.jpg",
+      "image_0003.jpg",
+      "image_0003_1.jpg",
+      "image_0001.jpg",
+      "image_0013.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0007.jpg",
+      "image_0015.jpg",
+      "image_0004.jpg",
+      "image_0014.jpg",
+      "image_0010.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg",
+      "image_0011.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_e3490c34",
+    "total_images": 13,
+    "flagged_images": [],
+    "ranking": [
+      "image_0010.jpg",
+      "image_0008.jpg",
+      "image_0007.jpg",
+      "image_0009.jpg",
+      "image_0011.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0012.jpg",
+      "image_0004.jpg",
+      "image_0006.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0001.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_e72326eb",
+    "total_images": 17,
+    "flagged_images": [],
+    "ranking": [
+      "image_0012.jpg",
+      "image_0004.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0008.jpg",
+      "image_0017.jpg",
+      "image_0001.jpg",
+      "image_0003.jpg",
+      "image_0016.jpg",
+      "image_0015.jpg",
+      "image_0014.jpg",
+      "image_0006.jpg",
+      "image_0010.jpg",
+      "image_0011.jpg",
+      "image_0007.jpg",
+      "image_0009.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_e9f9a70d",
+    "total_images": 16,
+    "flagged_images": [
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.9966,
+        "reason": "a product close-up, not the outlet (fit score 0.18 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0015.jpg",
+      "image_0013.jpg",
+      "image_0016.jpg",
+      "image_0012.jpg",
+      "image_0007.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0010.jpg",
+      "image_0014.jpg",
+      "image_0004.jpg",
+      "image_0001.jpg",
+      "image_0009.jpg",
+      "image_0005.jpg",
+      "image_0011.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ec938d8d",
+    "total_images": 10,
+    "flagged_images": [
+      {
+        "file_name": "image_0004.jpg",
+        "suspicion_score": 0.9809,
+        "reason": "a different storefront or location (fit score 0.45 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0010.jpg",
+      "image_0007.jpg",
+      "image_0001.jpg",
+      "image_0009.jpg",
+      "image_0006.jpg",
+      "image_0008.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ed090717",
+    "total_images": 9,
+    "flagged_images": [],
+    "ranking": [
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg",
+      "image_0003.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0007.jpg",
+      "image_0008.jpg",
+      "image_0009.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_eef1223c",
+    "total_images": 16,
+    "flagged_images": [],
+    "ranking": [
+      "image_0008.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0006.jpg",
+      "image_0004.jpg",
+      "image_0001.jpg",
+      "image_0012.jpg",
+      "image_0013.jpg",
+      "image_0010.jpg",
+      "image_0007.jpg",
+      "image_0011.jpg",
+      "image_0003.jpg",
+      "image_0016.jpg",
+      "image_0009.jpg",
+      "image_0014.jpg",
+      "image_0015.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ef7a091c",
+    "total_images": 6,
+    "flagged_images": [
+      {
+        "file_name": "image_0004.jpg",
+        "suspicion_score": 0.9574,
+        "reason": "a different storefront or location (fit score 0.53 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_f02e170e",
+    "total_images": 6,
+    "flagged_images": [
+      {
+        "file_name": "image_0004.jpg",
+        "suspicion_score": 0.9701,
+        "reason": "a different storefront or location (fit score 0.52 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0001.jpg",
+        "suspicion_score": 0.9559,
+        "reason": "a different storefront or location (fit score 0.57 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0004.jpg",
+      "image_0001.jpg",
+      "image_0005.jpg",
+      "image_0002.jpg",
+      "image_0006.jpg",
+      "image_0003.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_f55150ab",
+    "total_images": 10,
+    "flagged_images": [
+      {
+        "file_name": "image_0002.jpg",
+        "suspicion_score": 0.9059,
+        "reason": "a different storefront or location (fit score 0.65 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0003.jpg",
+      "image_0004.jpg",
+      "image_0008.jpg",
+      "image_0007.jpg",
+      "image_0009.jpg",
+      "image_0010.jpg",
+      "image_0001.jpg",
+      "image_0006.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_f5ebfe3f",
+    "total_images": 9,
+    "flagged_images": [],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0004.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0008.jpg",
+      "image_0006.jpg",
+      "image_0005.jpg",
+      "image_0007.jpg",
+      "image_0009.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_f8b4c480",
+    "total_images": 13,
+    "flagged_images": [
+      {
+        "file_name": "image_0009.jpg",
+        "suspicion_score": 0.9696,
+        "reason": "a different storefront or location (fit score 0.54 vs the outlet's other images)"
+      },
+      {
+        "file_name": "image_0003.jpg",
+        "suspicion_score": 0.8966,
+        "reason": "a different storefront or location (fit score 0.71 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0009.jpg",
+      "image_0003.jpg",
+      "image_0008.jpg",
+      "image_0013.jpg",
+      "image_0002.jpg",
+      "image_0011.jpg",
+      "image_0012.jpg",
+      "image_0006.jpg",
+      "image_0010.jpg",
+      "image_0001.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg",
+      "image_0007.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_fe059a3c",
+    "total_images": 17,
+    "flagged_images": [
+      {
+        "file_name": "image_0005.jpg",
+        "suspicion_score": 0.998,
+        "reason": "a product close-up, not the outlet (fit score 0.13 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0005.jpg",
+      "image_0014.jpg",
+      "image_0001.jpg",
+      "image_0007.jpg",
+      "image_0010.jpg",
+      "image_0004.jpg",
+      "image_0009.jpg",
+      "image_0012.jpg",
+      "image_0006.jpg",
+      "image_0017.jpg",
+      "image_0013.jpg",
+      "image_0008.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0015.jpg",
+      "image_0016.jpg",
+      "image_0011.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ff5c6fd3",
+    "total_images": 10,
+    "flagged_images": [],
+    "ranking": [
+      "image_0010.jpg",
+      "image_0005.jpg",
+      "image_0008.jpg",
+      "image_0004.jpg",
+      "image_0007.jpg",
+      "image_0003.jpg",
+      "image_0009.jpg",
+      "image_0006.jpg",
+      "image_0001.jpg",
+      "image_0002.jpg"
+    ]
+  },
+  {
+    "outlet_id": "outlet_ffb4b10a",
+    "total_images": 7,
+    "flagged_images": [
+      {
+        "file_name": "image_0006.jpg",
+        "suspicion_score": 0.8839,
+        "reason": "a different storefront or location (fit score 0.76 vs the outlet's other images)"
+      }
+    ],
+    "ranking": [
+      "image_0001.jpg",
+      "image_0006.jpg",
+      "image_0007.jpg",
+      "image_0003.jpg",
+      "image_0002.jpg",
+      "image_0005.jpg",
+      "image_0004.jpg"
+    ]
+  }
+]
